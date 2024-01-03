@@ -1,5 +1,5 @@
 {
-	"name": "weather-cli",
+	"name": "@<Github_username>/weather-cli-ewm",
 	"version": "1.0.0",
 	"description": "",
 	"main": "dist/index.js",
@@ -10,8 +10,14 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "npx tsc"
 	},
-	"author": "",
+	"keywords": [
+		"cli",
+		"npmtool"
+	],
+	"author": "ewm",
 	"license": "ISC",
+	"repository": "https://github.com/Maksym235/weather-cli-ewm",
+	"homepage": "https://github.com/Maksym235/weather-cli-ewm#readme",
 	"dependencies": {
 		"commander": "^11.1.0",
 		"typescript": "^5.3.3"
