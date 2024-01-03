@@ -1,5 +1,5 @@
 {
-  "name": "@maksym235/weather-cli-ewm",
+  "name": "@ewm235/weather-cli-ewm",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
