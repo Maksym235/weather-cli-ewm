@@ -21,8 +21,9 @@ program
     .option("-a, --all")
     .action(({ city, all }) => __awaiter(void 0, void 0, void 0, function* () {
     try {
+        console.log(`hello ${city}`);
         if (all) {
-            const resp = yield axios.get(`https://api.weatherapi.com/v1/forecast.json?q=${city}&days=1&tp=15&key=${process.env.WEATHER_KEY}`);
+            const resp = yield axios.get(`https://api.weatherapi.com/v1/forecast.json?q=${city}&days=1&tp=15&key=94a040c94bab4dcabf9130808222712`);
             const days = resp.data.forecast.forecastday[0].hour.map((dayTime) => {
                 return {
                     Час: dayTime.time ? dayTime.time : null,
@@ -43,7 +44,7 @@ program
             ];
             return console.table(weatherArray), console.table(days);
         }
-        const resp = yield axios.get(`https://api.weatherapi.com/v1/current.json?q=${city}&lang=ua&key=${process.env.WEATHER_KEY}`);
+        const resp = yield axios.get(`https://api.weatherapi.com/v1/current.json?q=${city}&lang=ua&key=94a040c94bab4dcabf9130808222712`);
         // 			const currentWeather = `Місто:${resp.data.location.name},
         // Часовий пояс: ${resp.data.location.tz_id},
         // Місцевий час: ${resp.data.location.localtime},
