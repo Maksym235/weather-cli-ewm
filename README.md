@@ -1,6 +1,6 @@
-## A CLI weather
+# A CLI weather
 
-## Install
+# Install
 
 ```
 npm i -g @ewm235/weather-cli-ewm
@@ -8,16 +8,16 @@ npm i -g @ewm235/weather-cli-ewm
 
 ---
 
-## Usage
+# Usage
 
-==get current weather in city==
+<h2><mark style="background: #CACFD9A6;">get current weather in city</mark></h2>
 
-- weather-cli-ewm weather -c <City_Name>
+- `weather-cli-ewm weather -c <City_Name>`
 
-[['./public/current.png']]
+<img src='./public/current.png'>
 
-get hourly weather forecast for the day
+<h2><mark style="background: #CACFD9A6;">get hourly weather forecast for the day</mark></h2>
 
-- weather-cli-ewm weather -c <City_Name> -a
+- `weather-cli-ewm weather -c <City_Name> -a`
 
-[['./public/all.png']]
+<img src='./public/all.png'>

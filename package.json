@@ -1,6 +1,6 @@
 {
 	"name": "@ewm235/weather-cli-ewm",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "",
 	"main": "dist/index.js",
 	"bin": {
